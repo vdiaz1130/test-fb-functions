@@ -1,27 +1,22 @@
-# AngularTailwindcssApp
+# Test FB Functions
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+To reproduce issue:
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone project
+2. cd into functions directory
+3. npm install packages
+4. Replace
+5. npm run serve
+6. Visit emulators (http://localhost:4002/firestore/data)
+7. Start "users" collection (note log in terminal)
+   Says Beginning execution of "addUserToIndex"
+8. Start "brands" collection (note log in terminal)
+   Says Beginning execution of "addUserToIndex"
+9. Edit users document (note log in terminal)
+   Beginning execution of "addUserToIndex"
+10. Edit brands document (note log in terminal)
+    Beginning execution of "addUserToIndex"
+11. Delete users document (note log in terminal)
+    Errors
+12. Delete brands document (note log in terminal)
+    Errors
